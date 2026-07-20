@@ -15,4 +15,4 @@ jobs:
           upstream_repo: https://github.com/iDvel/rime-ice.git   # 修改这里
           upstream_branch: main                               # 确认目标仓库的分支名
           downstream_branch: main                             # 你的复刻仓库分支名
-          token: ${{ secrets.GITHUB_TOKEN }}                  # 无需修改
+          token: ${{ secrets.PAT }}
